@@ -7,20 +7,20 @@ amazon.net,1,3,3,stellt eine Monopolie her,"müssen in Hitze arbeiten, werden ni
 ebay.com,7,5,7,befördert privaten Verkauf,arbeiten hobbymässig da,Verkaufspreis minus Lieferung,,6
 ebay.ch,7,5,7,befördert privaten Verkauf,arbeiten hobbymässig da,Verkaufspreis minus Lieferung,,6
 ebay.de,7,5,7,befördert privaten Verkauf,arbeiten hobbymässig da,Verkaufspreis minus Lieferung,,6
-aliexpress.com,4,1,2,"hat Sweatshops in Asien, aber verkauft direkt",sind fast Sklaven,Existenzminimum,,1
-aliexpress.de,4,1,2,"hat Sweatshops in Asien, aber verkauft direkt",sind fast Sklaven,Existenzminimum,,3
+aliexpress.com,3,1,2,"hat Sweatshops in Asien, aber verkauft direkt an Kunden",sind fast Sklaven,Existenzminimum,,2
+aliexpress.de,3,1,2,"hat Sweatshops in Asien, aber verkauft direkt an Kunden",sind fast Sklaven,Existenzminimum,,2
 ricardo.ch,8,8,7,verkauft nur lokal,"arbeiten hobbymässig da, und müssen nur innerhalb der Schweiz versenden",Verkaufspreis minus Lieferung,,8
 zalando.ch,7,8,8,verkauft lokale und importierte Güter,werden gut behandelt,viel,,8
 fust.ch,5,7,6,verkauft Güter as aller Welt,werden respektvoll behandelt,genügend,,6
 coop.ch,8,9,7,verkaufen hauptsächlich lokale Güter,werden sehr repektvoll behandelt,ausreichend,,8
-intersport.de,,,,,,,,
-intersport.ch,,,,,,,,
-deichmann.de,,,,,,,,
-deichmann.ch,,,,,,,,
-obi.de,,,,,,,,
-ikea.com,,,,,,,,
-fressnapf.de,,,,,,,,
-cewe.de,,,,,,,,
+intersport.de,5,8,4,verkauft Güter as aller Welt,werden gut behandelt,karg,,6
+intersport.ch,5,8,4,verkauft Güter as aller Welt,werden gut behandelt,karg,,7
+deichmann.de,5,3,9,verkauft Güter as aller Welt,werden sehr schlecht behandelt,sehr grosszügig,,6
+deichmann.ch,5,3,9,verkauft Güter as aller Welt,werden sehr schlecht behandelt,sehr grosszügig,,6
+obi.de,7,10,7,verkauft lokale und importierte Güter,werden vor fast allen anderen Prioritäten gesetzt,ausreichend,,8
+ikea.com,3,9,7,holzen viel ab,werden sehr freundlich behandelt,ausreichend,,6
+fressnapf.de,3,2,4,importieren ihr Napf aus armen Ländern,werden unmenschlich behandelt,karg,,3
+zalando.de,7,8,8,verkauft lokale und importierte Güter,werden gut behandelt,viel,,8
 coop.de,8,9,7,verkaufen hauptsächlich lokale Güter,werden sehr repektvoll behandelt,ausreichend,,9
 tutti.ch,8,8,7,verkauft nur lokal,"arbeiten hobbymässig da, und müssen nur innerhalb der Schweiz versenden",Verkaufspreis minus Lieferung,,8
 mediamarkt.de,5,6,7,verkauft Güter as aller Welt,werden ok behandelt,ausreichend,,6
@@ -29,11 +29,4 @@ digitec.ch,5,8,8,verkauft Güter as aller Welt,werden gut behandelt,viel,,7
 galaxus.de,5,7,6,verkauft Güter as aller Welt,werden respektvoll behandelt,genügend,,6
 galaxus.ch,5,7,6,verkauft Güter as aller Welt,werden respektvoll behandelt,genügend,,6
 galaxus.com,5,7,6,verkauft Güter as aller Welt,werden respektvoll behandelt,genügend,,6
-store.nike.com,,,,,,,,
-zalando.de,,,,,,,,
-jack-wolfskin.de,,,,,,,,
-douglas.de,,,,,,,,
-hugoboss.com,,,,,,,,
-misterspex.de,,,,,,,,
-docmorris.de,,,,,,,,
-jacques.de,,,,,,,,
+store.nike.com,2,1,1,hat sweatshops in Asien,sind fast Sklaven,unter Existenzminimum,,1
