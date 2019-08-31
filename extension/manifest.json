@@ -1,0 +1,21 @@
+{
+
+  "manifest_version": 2,
+  "name": "AwareShopper",
+  "version": "1.0",
+
+  "description": "Shop aware on the Internet.",
+
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["AwareShopper.js"]
+
+    }
+  ]
+
+}
