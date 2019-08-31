@@ -24,7 +24,30 @@ for(entry of datenbank){
 		document.getElementById("points1").innerHTML = "Fairtrade: " + entry["fairtrade"] + "/10";
 		document.getElementById("points2").innerHTML = "Arbeitsbedingungen: " + entry["arbeitsbed"] + "/10";
 		document.getElementById("points3").innerHTML = "Arbeiterlohn: " + entry["lohn"] + "/10";
+		
+		let background = document.querySelector("#background");
+
+		switch (true) {
+			case entry["score"]<3:
+				background.style.backgroundImage = "linear-gradient(to bottom, #8B0000, #C56363)";
+				break;
+			case entry["score"]<5:
+				background.style.backgroundImage = "linear-gradient(to bottom, #F00000, #F86868)";
+				break;
+			case entry["score"]<7:
+				background.style.backgroundImage = "linear-gradient(to bottom, #F06900, #F99E69)";
+				break;
+			case entry["score"]<9:
+				background.style.backgroundImage = "linear-gradient(to bottom, #CFF000, #CDED69)";
+				break;
+			case entry["score"]<=10:
+				background.style.backgroundImage = "linear-gradient(to bottom, #1AF000, #69FF69)";
+				break;
+			default:
+				break;
+	
+		}
+
 	}
 }
-
 })()
