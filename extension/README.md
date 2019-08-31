@@ -1,0 +1,1 @@
+#AwareShopper Firefox extension
