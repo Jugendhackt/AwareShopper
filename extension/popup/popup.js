@@ -29,19 +29,19 @@ for(entry of datenbank){
 
 		switch (true) {
 			case entry["score"]<3:
-				background.style.backgroundImage = "linear-gradient(to bottom, #8B0000, #C56363)";
+				background.style.backgroundImage = "linear-gradient(to bottom, #F00000, #F86969)";
 				break;
 			case entry["score"]<5:
-				background.style.backgroundImage = "linear-gradient(to bottom, #F00000, #F86868)";
-				break;
-			case entry["score"]<7:
 				background.style.backgroundImage = "linear-gradient(to bottom, #F06900, #F99E69)";
 				break;
+			case entry["score"]<7:
+				background.style.backgroundImage = "linear-gradient(to bottom, #FAC800, #FFE069)";
+				break;
 			case entry["score"]<9:
-				background.style.backgroundImage = "linear-gradient(to bottom, #CFF000, #CDED69)";
+				background.style.backgroundImage = "linear-gradient(to bottom, #69FA00, #69FA69)";
 				break;
 			case entry["score"]<=10:
-				background.style.backgroundImage = "linear-gradient(to bottom, #1AF000, #69FF69)";
+				background.style.backgroundImage = "linear-gradient(to bottom, #40E0D0, #FF8C00, #FF0080)";
 				break;
 			default:
 				break;
