@@ -9,7 +9,7 @@
     /*display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;*/
-    background-image: linear-gradient(to bottom, #69f69f, #B3BF00);
+    background-image: linear-gradient(to bottom, #999999, #BFBFBF);
 }
 hr{
     border: 2px solid #ffffff;
