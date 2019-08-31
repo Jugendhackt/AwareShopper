@@ -7,15 +7,21 @@
   "description": "Shop aware on the Internet.",
 
   "icons": {
-    "48": "icons/border-48.png"
+    "48": "icons/red.png"
   },
 
   "content_scripts": [
     {
-      "matches": ["*://*/*"],
-      "js": ["AwareShopper.js"]
+      "matches": ["*://wish.com/*"],
+      "js": ["test.js"]
 
     }
-  ]
+  ],
+  
+  "browser_action": {
+  	"default_icon": "icons/green.png",
+	"default_title": "AwareShopper",
+	"default_popup": "popup/popup.html"
+  }
 
 }
