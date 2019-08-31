@@ -1,0 +1,45 @@
+ @import url(http://fonts.googleapis.com/css?family=Ubuntu&subset=latin,cyrillic);
+
+.container {
+    overflow: hidden;
+    height: auto;
+    width: auto;
+    max-width: 256px;
+    margin: auto;
+    /*display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;*/
+    background-image: linear-gradient(to bottom, #69f69f, #B3BF00);
+}
+hr{
+    border: 2px solid #ffffff;
+}
+
+.cell {
+    font-family: Ubuntu;
+    color:  white;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 1rem;
+    max-width: 256px;
+
+}
+.cell-title   {
+    font-size: 2rem;
+}
+.cell-ranking {
+
+}
+.cell-ranking > p{
+    word-break: break-all;
+}
+
+.cell-points{
+    vertical-align: middle;
+}
+.points {
+    margin: 0px;
+    padding: 0px;
+}
+
+}
