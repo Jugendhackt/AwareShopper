@@ -12,12 +12,12 @@
 
   "content_scripts": [
     {
-      "matches": ["*://wish.com/*"],
-      "js": ["test.js"]
+      "matches": ["*://*/*"],
+      "js": ["AwareShopper.js"]
 
     }
   ],
-  
+
   "browser_action": {
   	"default_icon": "icons/green.png",
 	"default_title": "AwareShopper",
