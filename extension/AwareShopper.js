@@ -17,7 +17,7 @@ for(entry of datenbank){
       case entry["score"]<9:
         document.body.style.border = "5px solid yellow";
         break;
-      case entry["score"]==10:
+      case entry["score"]<=10:
         document.body.style.border = "5px solid green";
         break;
       default:
